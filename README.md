@@ -16,7 +16,7 @@ I get obsessed with optimization and this is the result of that obsession.
 # Build Notes
 
 * 2015-10-26T01:25:00
-** Corners lifted with the PLA settings and clean glass bed
-** Extruded Temp was set to 200c but averaged around 180c
+  * Corners lifted with the PLA settings and clean glass bed
+  * Extruded Temp was set to 200c but averaged around 180c
 
 
