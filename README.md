@@ -5,18 +5,13 @@ Duplicator printer.
 
 I get obsessed with optimization and this is the result of that obsession.
 
-I started with a default Cura profile with the Filiment Diameter set
-to 1.75mm and the Nozzle size set to 0.4mm.
+# Modifications
 
-I started with [3dbenchy](http://www.3dbenchy.com/) print to see what
-issues there were.
+* [Glass Bed](http://www.amazon.com/gp/product/B00QQ5Q3BI?psc=1&redirect=true&ref_=oh_aui_detailpage_o01_s01)
+* [Y Idler Zip Tie](http://3dprinterbrain.com/uploads/DupI3/RecommendedMods/YIdlerZip.jpg)
+* [Thumbwheels](http://www.thingiverse.com/thing:874155)
+* [DiiCooler with Stock 30mm fan](http://www.thingiverse.com/thing:1025471)
+* Removed belt tensioner and tightened belt
 
-I had a few issues with this print:
-
-* xxx
-* yyy
-
-There are a number of suggestions online to fix these issues but no
-systematic proof of what settings improve what.
 
 
