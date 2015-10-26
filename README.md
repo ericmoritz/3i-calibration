@@ -13,5 +13,10 @@ I get obsessed with optimization and this is the result of that obsession.
 * [DiiCooler with Stock 30mm fan](http://www.thingiverse.com/thing:1025471)
 * Removed belt tensioner and tightened belt
 
+# Build Notes
+
+* 2015-10-26T01:25:00
+** Corners lifted with the PLA settings and clean glass bed
+** Extruded Temp was set to 200c but averaged around 180c
 
 
