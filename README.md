@@ -19,7 +19,7 @@ I get obsessed with optimization and this is the result of that obsession.
 
 # Build Notes
 
-* 2015-10-29T12:27 - make/dimensional_accuracy_test.stl
+* 2015-10-29T12 - make/dimensional_accuracy_test.stl
   * Replaced the DiiCooler with the rear mounted Cobra Cooler because the DiiCooler blocked the view and dropped the extruder temp by 10c when turned on.
   * Extruder Temp appox 190c instead of the request 200c
   * Y=20.05mm, X=20.15mm, avg diff=0.1mm, score=4
