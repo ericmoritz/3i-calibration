@@ -18,7 +18,8 @@ I get obsessed with optimization and this is the result of that obsession.
 * Removed belt tensioner and tightened belt
 
 # Build Notes
-
+* 2015-10-30T03
+  * Put stock extruder gear back on because the D4 gear skipped too much
 * 2015-10-29T19 - make/XY_resonance_test.stl
   * Brittle walls, gaps in layers
 * 2015-10-29T18 -
