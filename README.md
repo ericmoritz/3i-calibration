@@ -19,6 +19,21 @@ I get obsessed with optimization and this is the result of that obsession.
 
 # Build Notes
 
+* 2015-10-29T19 - make/XY_resonance_test.stl
+  * Brittle walls, gaps in layers
+* 2015-10-29T18 -
+  * Score=3
+* 2015-10-29T17 - make/negative_space_tolerance_test.stl
+  * Score=4
+* 2015-10-29T16 - make/overhang_test.stl
+  * ringing on the letters
+  * 190c instead of 200c
+  * I could hear the extruder gear skipping a step at the same X,Y cords
+    regardless of Z. There's no visible artifact of this as far as I can tell.
+  * Layer gap on the brim of the base
+  * Score=4
+* 2015-10-29T15 - make/bridging_test.stl
+  * Score=5
 * 2015-10-29T12 - make/dimensional_accuracy_test.stl
   * Replaced the DiiCooler with the rear mounted Cobra Cooler because the DiiCooler blocked the view and dropped the extruder temp by 10c when turned on.
   * Extruder Temp appox 190c instead of the request 200c
