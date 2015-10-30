@@ -1,8 +1,8 @@
 Send: M205
-Recv: ok 52468
+Recv: ok 6622
 Recv: EPR:2 75 115200 Baudrate
-Recv: EPR:3 129 696.216 Filament printed [m]
-Recv: EPR:2 125 417728 Printer active [s]
+Recv: EPR:3 129 723.826 Filament printed [m]
+Recv: EPR:2 125 431689 Printer active [s]
 Recv: EPR:2 79 0 Max. inactive time [ms,0=off]
 Recv: EPR:2 83 360000 Stop stepper after inactivity [ms,0=off]
 Recv: EPR:3 3 80.0000 X-axis steps per mm
@@ -40,12 +40,12 @@ Recv: EPR:3 200 96.000 Extr.1 steps per mm
 Recv: EPR:3 204 50.000 Extr.1 max. feedrate [mm/s]
 Recv: EPR:3 208 20.000 Extr.1 start feedrate [mm/s]
 Recv: EPR:3 212 5000.000 Extr.1 acceleration [mm/s^2]
-Recv: EPR:0 216 1 Extr.1 heat manager [0-3]
+Recv: EPR:0 216 3 Extr.1 heat manager [0-3]
 Recv: EPR:0 217 230 Extr.1 PID drive max
 Recv: EPR:0 245 40 Extr.1 PID drive min
 Recv: EPR:3 218 7.0000 Extr.1 PID P-gain/dead-time
-Recv: EPR:3 222 0.5000 Extr.1 PID I-gain
-Recv: EPR:3 226 25.0000 Extr.1 PID D-gain
+Recv: EPR:3 222 2.0000 Extr.1 PID I-gain
+Recv: EPR:3 226 40.0000 Extr.1 PID D-gain
 Recv: EPR:0 230 255 Extr.1 PID max value [0-255]
 Recv: EPR:2 231 0 Extr.1 X-offset [steps]
 Recv: EPR:2 235 0 Extr.1 Y-offset [steps]
@@ -53,3 +53,4 @@ Recv: EPR:1 239 1 Extr.1 temp. stabilize time [s]
 Recv: EPR:1 250 150 Extr.1 temp. for retraction when heating [C]
 Recv: EPR:1 252 0 Extr.1 distance to retract when heating [mm]
 Recv: EPR:0 254 255 Extr.1 extruder cooler speed [0-255]
+Recv: ok 6622
