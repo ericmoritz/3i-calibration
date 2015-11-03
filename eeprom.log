@@ -1,8 +1,8 @@
 Send: M205
-Recv: ok 80
+Recv: ok 6657
 Recv: EPR:2 75 115200 Baudrate
-Recv: EPR:3 129 729.322 Filament printed [m]
-Recv: EPR:2 125 436979 Printer active [s]
+Recv: EPR:3 129 735.851 Filament printed [m]
+Recv: EPR:2 125 442837 Printer active [s]
 Recv: EPR:2 79 0 Max. inactive time [ms,0=off]
 Recv: EPR:2 83 360000 Stop stepper after inactivity [ms,0=off]
 Recv: EPR:3 3 80.0000 X-axis steps per mm
@@ -36,7 +36,7 @@ Recv: EPR:3 108 196.000 Bed PID P-gain
 Recv: EPR:3 112 33.000 Bed PID I-gain
 Recv: EPR:3 116 290.000 Bed PID D-gain
 Recv: EPR:0 120 255 Bed PID max value [0-255]
-Recv: EPR:3 200 96.000 Extr.1 steps per mm
+Recv: EPR:3 200 105.000 Extr.1 steps per mm
 Recv: EPR:3 204 50.000 Extr.1 max. feedrate [mm/s]
 Recv: EPR:3 208 20.000 Extr.1 start feedrate [mm/s]
 Recv: EPR:3 212 5000.000 Extr.1 acceleration [mm/s^2]
@@ -53,4 +53,4 @@ Recv: EPR:1 239 1 Extr.1 temp. stabilize time [s]
 Recv: EPR:1 250 150 Extr.1 temp. for retraction when heating [C]
 Recv: EPR:1 252 0 Extr.1 distance to retract when heating [mm]
 Recv: EPR:0 254 255 Extr.1 extruder cooler speed [0-255]
-Recv: ok 80
+Recv: ok 6657
