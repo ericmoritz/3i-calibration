@@ -7,7 +7,7 @@ from decimal import Decimal as D
 
 def calc(esteps, wanted, start, end):
     extruded = (start - end)
-    return round(D(100) / extruded * esteps)
+    return round(wanted / extruded * esteps)
 
 def test(expected, got):
     assert expected == got, "Expected {expected} got {got}".format(**locals())
