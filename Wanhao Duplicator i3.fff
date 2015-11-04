@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Wanhao Duplicator i3" version="2015-11-03 12:08:23" app="S3D-Software 3.0.2">
+<profile name="Wanhao Duplicator i3" version="2015-11-03 23:47:00" app="S3D-Software 3.0.2">
   <baseProfile></baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>Medium</printQuality>
@@ -7,9 +7,9 @@
   <extruder name="Primary Extruder">
     <toolheadNumber>0</toolheadNumber>
     <diameter>0.4</diameter>
-    <autoWidth>0</autoWidth>
-    <width>0.4</width>
-    <extrusionMultiplier>0.9</extrusionMultiplier>
+    <autoWidth>1</autoWidth>
+    <width>0.48</width>
+    <extrusionMultiplier>1</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>1</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -32,7 +32,7 @@
   <startPointOriginZ>300</startPointOriginZ>
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
-  <firstLayerHeightPercentage>90</firstLayerHeightPercentage>
+  <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
   <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
   <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
   <useRaft>0</useRaft>
@@ -90,7 +90,7 @@
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
     <setpoint layer="1" temperature="190"/>
-    <setpoint layer="2" temperature="200"/>
+    <setpoint layer="2" temperature="195"/>
   </temperatureController>
   <temperatureController name="Heated Bed">
     <temperatureNumber>0</temperatureNumber>
@@ -98,11 +98,11 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="70"/>
+    <setpoint layer="1" temperature="50"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
-    <setpoint layer="2" speed="100"/>
+    <setpoint layer="2" speed="50"/>
   </fanSpeed>
   <blipFanToFullPower>0</blipFanToFullPower>
   <adjustSpeedForCooling>1</adjustSpeedForCooling>
@@ -154,7 +154,7 @@
   <celebrationSong>Random Song</celebrationSong>
   <createMB5G>0</createMB5G>
   <postProcessing></postProcessing>
-  <defaultSpeed>3600</defaultSpeed>
+  <defaultSpeed>3000</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
@@ -165,7 +165,7 @@
   <bridgingExtrusionMultiplier>1</bridgingExtrusionMultiplier>
   <bridgingSpeedMultiplier>1</bridgingSpeedMultiplier>
   <filamentDiameter>1.75</filamentDiameter>
-  <filamentPricePerKg>46</filamentPricePerKg>
+  <filamentPricePerKg>24</filamentPricePerKg>
   <filamentDensity>1.25</filamentDensity>
   <useMinPrintHeight>0</useMinPrintHeight>
   <minPrintHeight>0</minPrintHeight>
@@ -197,13 +197,13 @@
       <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
       <setpoint layer="1" temperature="190"/>
-      <setpoint layer="2" temperature="200"/>
+      <setpoint layer="2" temperature="195"/>
     </temperatureController>
-    <globalBedTemperature>70</globalBedTemperature>
-    <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
+    <globalBedTemperature>50</globalBedTemperature>
+    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="100"/>
+      <setpoint layer="2" speed="50"/>
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="ABS">
