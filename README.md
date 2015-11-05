@@ -18,14 +18,6 @@ I get obsessed with optimization and this is the result of that obsession.
 * Removed belt tensioner and tightened belt
 
 # Build Notes
-* 2015-10-30T11 - make/dimensional_accuracy_test.stl
-  * 
-* 2015-10-30T10 - make/XY_resonance_test.stl
-  * I fixed the brittle walls by setting the steps/mm to 105
-  * When the fan kicked on, the temp dropped 10-20c and the extruder
-    started skipping
-  * I set the ex temp to 210 to compensate for the fan and this
-    stopped most of the skipping
 * 2015-10-30T03
   * Put stock extruder gear back on because the D4 gear skipped too much
 * 2015-10-29T19 - make/XY_resonance_test.stl
