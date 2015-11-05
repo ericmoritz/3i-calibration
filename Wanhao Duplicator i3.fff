@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Wanhao Duplicator i3" version="2015-11-04 11:54:21" app="S3D-Software 3.0.2">
+<profile name="Wanhao Duplicator i3" version="2015-11-04 21:40:03" app="S3D-Software 3.0.2">
   <baseProfile></baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>Medium</printQuality>
@@ -22,9 +22,9 @@
   </extruder>
   <primaryExtruder>0</primaryExtruder>
   <layerHeight>0.2</layerHeight>
-  <topSolidLayers>3</topSolidLayers>
-  <bottomSolidLayers>3</bottomSolidLayers>
-  <perimeterOutlines>2</perimeterOutlines>
+  <topSolidLayers>5</topSolidLayers>
+  <bottomSolidLayers>5</bottomSolidLayers>
+  <perimeterOutlines>5</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
   <startPointOption>2</startPointOption>
   <startPointOriginX>0</startPointOriginX>
@@ -241,8 +241,8 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="Medium">
     <layerHeight>0.2</layerHeight>
-    <topSolidLayers>3</topSolidLayers>
-    <bottomSolidLayers>3</bottomSolidLayers>
+    <topSolidLayers>5</topSolidLayers>
+    <bottomSolidLayers>5</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
     <infillPercentage>20</infillPercentage>
     <supportInfillPercentage>30</supportInfillPercentage>
