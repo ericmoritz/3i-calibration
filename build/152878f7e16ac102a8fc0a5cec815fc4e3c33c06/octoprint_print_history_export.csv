@@ -1,6 +1,0 @@
-"File name","Timestamp","Success","Print time","Filament length","Filament volume"
-"bridging_test.gcode","1446670461.84012","False","0.10086917877197266","1772.6545000000558","0.0"
-"negative_space_tolerance_test.gcode","1446682722.352166","False","-","2426.8556000006624","0.0"
-"bridging_test.gcode","1446674321.266135","True","2680.828603029251","1772.6545000000558","0.0"
-"dimensional_accuracy_test.gcode","1446670129.924208","True","2153.235316991806","1025.3138000000504","0.0"
-"overhang_test.gcode","1446680637.006599","True","3963.904046058655","2213.5794999997224","0.0"
