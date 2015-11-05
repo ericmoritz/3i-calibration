@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Wanhao Duplicator i3" version="2015-11-04 23:41:23" app="S3D-Software 3.0.2">
+<profile name="Wanhao Duplicator i3" version="2015-11-05 10:35:56" app="S3D-Software 3.0.2">
   <baseProfile></baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>Medium</printQuality>
@@ -8,7 +8,7 @@
     <toolheadNumber>0</toolheadNumber>
     <diameter>0.4</diameter>
     <autoWidth>0</autoWidth>
-    <width>0.4</width>
+    <width>0.5</width>
     <extrusionMultiplier>1</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>1</retractionDistance>
