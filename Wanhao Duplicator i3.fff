@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="Wanhao Duplicator i3" version="2015-12-11 15:04:37" app="S3D-Software 3.0.2">
+<profile name="Wanhao Duplicator i3" version="2016-05-04 18:04:37" app="S3D-Software 3.0.2">
   <baseProfile></baseProfile>
-  <printMaterial>PET</printMaterial>
+  <printMaterial>PLA</printMaterial>
   <printQuality>Medium</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -22,9 +22,9 @@
   </extruder>
   <primaryExtruder>0</primaryExtruder>
   <layerHeight>0.2</layerHeight>
-  <topSolidLayers>5</topSolidLayers>
-  <bottomSolidLayers>5</bottomSolidLayers>
-  <perimeterOutlines>5</perimeterOutlines>
+  <topSolidLayers>3</topSolidLayers>
+  <bottomSolidLayers>3</bottomSolidLayers>
+  <perimeterOutlines>3</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
   <startPointOption>2</startPointOption>
   <startPointOriginX>0</startPointOriginX>
@@ -89,7 +89,7 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="255"/>
+    <setpoint layer="1" temperature="205"/>
   </temperatureController>
   <temperatureController name="Heated Bed">
     <temperatureNumber>0</temperatureNumber>
@@ -97,11 +97,11 @@
     <relayBetweenLayers>0</relayBetweenLayers>
     <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="90"/>
+    <setpoint layer="1" temperature="60"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
-    <setpoint layer="2" speed="25"/>
+    <setpoint layer="2" speed="100"/>
   </fanSpeed>
   <blipFanToFullPower>0</blipFanToFullPower>
   <adjustSpeedForCooling>1</adjustSpeedForCooling>
@@ -153,8 +153,8 @@
   <celebrationSong>Random Song</celebrationSong>
   <createMB5G>0</createMB5G>
   <postProcessing></postProcessing>
-  <defaultSpeed>1500</defaultSpeed>
-  <outlineUnderspeed>1</outlineUnderspeed>
+  <defaultSpeed>3000</defaultSpeed>
+  <outlineUnderspeed>0.25</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
   <rapidXYspeed>4800</rapidXYspeed>
@@ -195,13 +195,13 @@
       <relayBetweenLayers>0</relayBetweenLayers>
       <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="195"/>
+      <setpoint layer="1" temperature="205"/>
     </temperatureController>
     <globalBedTemperature>60</globalBedTemperature>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="25"/>
+      <setpoint layer="2" speed="100"/>
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="ABS">
@@ -239,16 +239,16 @@
   </autoConfigureQuality>
   <autoConfigureQuality name="Medium">
     <layerHeight>0.2</layerHeight>
-    <topSolidLayers>5</topSolidLayers>
-    <bottomSolidLayers>5</bottomSolidLayers>
+    <topSolidLayers>3</topSolidLayers>
+    <bottomSolidLayers>3</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
     <infillPercentage>20</infillPercentage>
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="High">
     <layerHeight>0.1</layerHeight>
-    <topSolidLayers>4</topSolidLayers>
-    <bottomSolidLayers>4</bottomSolidLayers>
+    <topSolidLayers>3</topSolidLayers>
+    <bottomSolidLayers>3</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
@@ -260,7 +260,7 @@
       <relayBetweenLayers>0</relayBetweenLayers>
       <relayBetweenLoops>0</relayBetweenLoops>
       <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="255"/>
+      <setpoint layer="1" temperature="235"/>
     </temperatureController>
     <globalBedTemperature>90</globalBedTemperature>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
@@ -269,12 +269,4 @@
       <setpoint layer="2" speed="25"/>
     </fanSpeed>
   </autoConfigureMaterial>
-  <autoConfigureQuality name="Ultra">
-    <layerHeight>0.1</layerHeight>
-    <topSolidLayers>5</topSolidLayers>
-    <bottomSolidLayers>5</bottomSolidLayers>
-    <skirtLayers>2</skirtLayers>
-    <infillPercentage>100</infillPercentage>
-    <supportInfillPercentage>40</supportInfillPercentage>
-  </autoConfigureQuality>
 </profile>
