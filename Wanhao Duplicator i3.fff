@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Wanhao Duplicator i3" version="2017-03-18 22:51:52" app="S3D-Software 3.0.2">
+<profile name="Wanhao Duplicator i3" version="2017-03-18 23:30:18" app="S3D-Software 3.0.2">
   <baseProfile></baseProfile>
   <printMaterial>ABS</printMaterial>
   <printQuality>Medium</printQuality>
@@ -26,7 +26,7 @@
   <bottomSolidLayers>3</bottomSolidLayers>
   <perimeterOutlines>3</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
-  <startPointOption>1</startPointOption>
+  <startPointOption>2</startPointOption>
   <startPointOriginX>0</startPointOriginX>
   <startPointOriginY>0</startPointOriginY>
   <startPointOriginZ>300</startPointOriginZ>
