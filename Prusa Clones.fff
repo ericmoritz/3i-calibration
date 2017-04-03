@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<profile name="Wanhao Duplicator i3" version="2017-04-03 00:40:42" app="S3D-Software 3.1.1">
-  <baseProfile></baseProfile>
+<profile name="Prusa Clones" version="2017-04-03 00:41:36" app="S3D-Software 3.1.1">
+  <baseProfile>Wanhao Duplicator i3</baseProfile>
   <printMaterial>ABS</printMaterial>
   <printQuality>Medium</printQuality>
   <printExtruders></printExtruders>
