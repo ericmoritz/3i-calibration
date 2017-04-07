@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Prusa Clones" version="2017-04-03 00:41:36" app="S3D-Software 3.1.1">
+<profile name="Prusa Clones" version="2017-04-07 16:53:16" app="S3D-Software 3.1.1">
   <baseProfile>Wanhao Duplicator i3</baseProfile>
   <printMaterial>ABS</printMaterial>
   <printQuality>Medium</printQuality>
@@ -7,8 +7,8 @@
   <extruder name="Primary Extruder">
     <toolheadNumber>0</toolheadNumber>
     <diameter>0.4</diameter>
-    <autoWidth>1</autoWidth>
-    <width>0.48</width>
+    <autoWidth>0</autoWidth>
+    <width>0.4</width>
     <extrusionMultiplier>1</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>2</retractionDistance>
@@ -32,7 +32,7 @@
   <startPointOriginZ>300</startPointOriginZ>
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
-  <firstLayerHeightPercentage>90</firstLayerHeightPercentage>
+  <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
   <firstLayerWidthPercentage>100</firstLayerWidthPercentage>
   <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
   <useRaft>0</useRaft>
@@ -143,7 +143,7 @@
   <baudRateOverride>115200</baudRateOverride>
   <overridePrinterModels>1</overridePrinterModels>
   <printerModelsOverride></printerModelsOverride>
-  <startingGcode>G28 ; home all axes,G29 ; auto-level</startingGcode>
+  <startingGcode>G28 ; home all axes,G29 ; auto-level,G1 X0 Y0 Z0 ; move head to origin,G1 F200 E3 ; prime the extruder</startingGcode>
   <layerChangeGcode></layerChangeGcode>
   <retractionGcode></retractionGcode>
   <toolChangeGcode></toolChangeGcode>
@@ -152,7 +152,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>4200</defaultSpeed>
+  <defaultSpeed>3600</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
