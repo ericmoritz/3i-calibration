@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Prusa Clones" version="2017-04-07 16:53:16" app="S3D-Software 3.1.1">
+<profile name="Prusa Clones" version="2017-04-09 22:33:44" app="S3D-Software 3.1.1">
   <baseProfile>Wanhao Duplicator i3</baseProfile>
   <printMaterial>ABS</printMaterial>
   <printQuality>Medium</printQuality>
@@ -143,7 +143,7 @@
   <baudRateOverride>115200</baudRateOverride>
   <overridePrinterModels>1</overridePrinterModels>
   <printerModelsOverride></printerModelsOverride>
-  <startingGcode>G28 ; home all axes,G29 ; auto-level,G1 X0 Y0 Z0 ; move head to origin,G1 F200 E3 ; prime the extruder</startingGcode>
+  <startingGcode>G28 ; home all axes,G29 ; auto-level</startingGcode>
   <layerChangeGcode></layerChangeGcode>
   <retractionGcode></retractionGcode>
   <toolChangeGcode></toolChangeGcode>
